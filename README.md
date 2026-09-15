@@ -1,92 +1,113 @@
-# AI & Machine Learning Notes
+# Hi, I'm Vania Sharon 
 
-Notes from Coding Club class session on Generative AI, LLMs, and Machine Learning.
+## About Me
+
+I am a Computer Science Engineering student at SRM University AP.
+
+I am interested in learning new technologies and developing my technical and personal skills. I am always looking forward to learning more skills, improving myself, and becoming more competitive in the field of technology.
+
+### My Skills
+
+- C Programming
+- C++ Programming
+- Knowledge of Java
+- Basic knowledge of Python
+- Good communication skills
+- Management skills
+
+### My Interests
+
+I am interested in learning more about:
+
+- Artificial Intelligence (AI)
+- Machine Learning (ML)
+- Generative AI
+- Programming and technology
+- Improving my problem-solving skills
+
+I am currently exploring AI and related technologies and looking forward to gaining more knowledge and practical experience in these areas.
 
 ---
+
+# What I Learned in the Session
+
 ## 1. Generative AI
 
-Generative AI is a type of artificial intelligence that can **create new content**. Instead of just analyzing existing data, it generates something new based on patterns it has learned.
+Generative AI is a type of artificial intelligence that can create new content. Instead of only analyzing existing data, it can generate new content based on patterns it has learned.
 
-AI → ML → Generative AI → Agentic AI
+### Examples
 
-### Examples of What It Can Generate
+- Text — ChatGPT, Claude
+- Images — DALL-E, Midjourney
+- Audio and Music
+- Video
+- Code
 
-- **Text** (essays, code, conversations) — e.g., ChatGPT, Claude
-- **Images** — e.g., DALL-E, Midjourney
-- **Audio/Music**
-- **Video**
+### How Generative AI Works
 
-### How It Works (Simple Idea)
+Generative AI models are trained on large amounts of data such as text, images, and other information. They learn patterns from this data and use those patterns to generate new content.
 
-These models are trained on huge amounts of existing data such as text, images, and other information. By studying patterns in that data, they learn to produce new content that resembles what they were trained on.
+For text, the input is divided into smaller units called tokens. These tokens are converted into numerical representations that the model can process. This process is called tokenization.
 
-For a given sentence, the text is first converted into **tokens**, which are numerical representations used by the model. The model then processes these tokens and generates an output. This process is called **tokenization**.
-
-Some AI tools also have limitations on the number of tokens or files that can be uploaded.
-
-### Real-World Use Cases
+### Real-World Applications
 
 - Writing assistance
 - Chatbots
 - Image generation
 - Code generation
-- Customer support automation
+- Customer support
+- Content creation
 
 ---
 
 ## 2. Large Language Models (LLMs)
 
-An LLM is a specific type of generative AI model that is trained primarily on text data to understand and generate human-like language.
+A Large Language Model (LLM) is a type of generative AI model that is mainly trained on large amounts of text data.
 
-Simply, an LLM can generate and understand textual conversations.
+LLMs can understand and generate human-like text.
 
-### How They Work (Simplified)
+### How LLMs Work
 
-- They are trained on massive amounts of text from books, websites, articles, etc.
-- They learn to predict the next **word (or "token")** in a sentence based on everything that came before it.
-- By doing this repeatedly at a huge scale, they learn grammar, facts, reasoning patterns, and conversational styles.
+- They are trained on huge amounts of text.
+- They learn patterns in language.
+- They predict the next token based on the previous tokens.
+- Through this process, they learn grammar, information, reasoning patterns, and different writing styles.
 
 ### Examples of LLMs
 
-- GPT (used in ChatGPT)
+- GPT
 - Claude
 - Gemini
 - LLaMA
 
-### What They're Used For
+### Applications of LLMs
 
 - Answering questions
 - Summarizing text
 - Writing content
 - Coding assistance
 - Translation
-- And much more
+- Conversational AI
 
 ---
 
-## 2.1 Diffusion Models
+## 3. Diffusion Models
 
-A **diffusion model** is a type of generative AI model mainly used to generate images, and increasingly audio and video, by learning to gradually build a clear output from random noise.
+A diffusion model is a type of generative AI model that is mainly used to generate images. It can also be used for audio and video generation.
 
-It is different from an LLM. LLMs are mainly designed for text, whereas diffusion models can be used for generating images, audio, video, and other types of content.
+### How Diffusion Models Work
 
-### How They Work (Simplified)
+During training, noise is gradually added to an image. The model learns how to reverse this process and remove the noise step by step.
 
-- During training, the model is shown real images with random **noise** (similar to static) added to them in small steps until the image becomes almost pure noise.
-- The model learns how to reverse this process by removing a small amount of noise at each step.
-- Once trained, to generate a new image, the model starts with pure random noise and repeatedly removes noise step by step, guided by a text prompt, until a clear image is formed.
+When generating a new image, the model starts with random noise and gradually removes the noise until a clear image is produced based on the given prompt.
 
-### Simple Analogy
-
-A diffusion model is like a sculptor starting with a rough, shapeless block (random noise) and slowly removing the excess material until a clear statue (final image) appears, guided by a description of what to create.
-
-### Examples of Diffusion Models
+### Examples
 
 - DALL-E
 - Midjourney
 - Stable Diffusion
 
-### What They're Used For
+### Applications
 
 - Text-to-image generation
 - Image editing
@@ -96,38 +117,36 @@ A diffusion model is like a sculptor starting with a rough, shapeless block (ran
 
 ---
 
-# Algorithms in AI/Machine Learning
+# 4. Algorithms in AI and Machine Learning
 
-An **algorithm** is a step-by-step set of rules or instructions that a computer follows to solve a problem or complete a task.
+An algorithm is a step-by-step set of instructions used to solve a problem or perform a task.
 
-In AI and machine learning, algorithms are the core logic that allows a system to learn patterns from data, make predictions, or make decisions without being explicitly programmed for every scenario.
+In AI and Machine Learning, algorithms help computers learn patterns from data, make predictions, and make decisions.
 
-### Common Types Include
+### Types of Algorithms
 
-- **Supervised learning algorithms** — e.g., linear regression, decision trees, Naive Bayes; learn from labeled data.
-- **Unsupervised learning algorithms** — e.g., k-means clustering; find patterns in unlabeled data.
-- **Reinforcement learning algorithms** — e.g., Q-learning; learn through trial, error, and reward.
-- **Neural networks / deep learning algorithms** — model complex patterns using layered structures inspired by the brain.
+- Supervised Learning algorithms
+- Unsupervised Learning algorithms
+- Reinforcement Learning algorithms
+- Neural Networks and Deep Learning algorithms
 
 ---
 
-# 3. Types of Machine Learning
+# 5. Types of Machine Learning
 
-Machine Learning (ML) is the broader field that focuses on teaching computers to learn patterns from data instead of being explicitly programmed with rules.
+Machine Learning is a field of AI that allows computers to learn patterns from data without being explicitly programmed for every task.
 
-There are three main types:
+There are three main types of Machine Learning:
 
-## a) Supervised Learning
+## A. Supervised Learning
 
-The model learns from **labeled data**, meaning each training example has a known correct answer.
-
-Here, we provide both the input and the expected output to the machine.
+Supervised learning uses labeled data. The model learns from inputs along with their expected outputs.
 
 ### Example
 
-Giving the model past house prices along with details such as size and location, so it can learn to predict the price of a new house.
+Using previous house prices and details such as size and location to predict the price of a new house.
 
-### Common Uses
+### Applications
 
 - Spam detection
 - Price prediction
@@ -135,19 +154,15 @@ Giving the model past house prices along with details such as size and location,
 
 ---
 
-## b) Unsupervised Learning
+## B. Unsupervised Learning
 
-The model works with **unlabeled data**. There is no "correct answer" provided.
-
-It tries to find hidden patterns or groupings in the data on its own.
-
-Here, we provide only the input, and the model finds patterns and produces useful outputs.
+Unsupervised learning works with unlabeled data. The model tries to find hidden patterns or groups within the data.
 
 ### Example
 
-Grouping customers into different segments based on shopping behavior without being told the groups in advance.
+Grouping customers based on their shopping behavior without being given predefined groups.
 
-### Common Uses
+### Applications
 
 - Customer segmentation
 - Anomaly detection
@@ -155,19 +170,23 @@ Grouping customers into different segments based on shopping behavior without be
 
 ---
 
-## c) Reinforcement Learning
+## C. Reinforcement Learning
 
-The model learns through **trial and error**, receiving rewards for good actions and penalties for bad ones. It gradually improves its strategy over time.
+Reinforcement learning allows an agent to learn through trial and error. The agent receives rewards for good actions and penalties for bad actions.
 
-In reinforcement learning, an **agent interacts with an environment** and receives rewards or penalties based on its actions.
+Over time, the agent learns which actions are more effective.
 
 ### Examples
 
-- An AI learning to play a game by playing it repeatedly and getting better with each attempt.
-- A dog performs an action such as sitting, and the environment (for example, a person) gives it a reward such as a treat when it performs the action correctly.
-
-### Common Uses
-
 - Game-playing AI
 - Robotics
-- Self-driving car decision-making
+- Self-driving systems
+- Decision-making systems
+
+---
+
+## Conclusion
+
+The session helped me understand the basics of Artificial Intelligence, Generative AI, Large Language Models, Diffusion Models, Algorithms, and Machine Learning.
+
+I am interested in learning more about AI and Machine Learning and developing my skills through continuous learning and practical experience.
